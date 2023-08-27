@@ -16,8 +16,8 @@ const Clients = () => {
                   src={item.src}
                   className="h-7"
                   alt={`${item.name} logo`}
-                  width="50"
-                  height="28"
+                  width="32"
+                  height="34"
                 />
                 <p className=" text-white font-bold text-2xl xs:text-4xl ml-1 ">
                   {item.name}
