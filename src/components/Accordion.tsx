@@ -9,16 +9,13 @@ const Accordion = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <div className=" mb-4  border-b border-black pb-4 text-[15px]  xs:text-lg">
       <div
         className={`flex justify-between items-center gap-x-5 cursor-pointer ${
           isOpen ? "font-semibold" : ""
         }`}
-        onClick={toggleAccordion}
+        onClick={() => setIsOpen(!isOpen)}
       >
         <div>{question}</div>
         <div

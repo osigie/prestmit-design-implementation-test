@@ -18,7 +18,14 @@ body {
 }
 
 .bg-custom-background {
-  background-image: url("/src/assets/bgemail.png");
+  background-image: url("/assets/bgemail.png");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.bg-custom-nav-background {
+  background-image: url("/assets/bgnav.png");
   background-size: cover;
   background-position: center;
 }

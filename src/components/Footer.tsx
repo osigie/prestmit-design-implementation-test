@@ -76,6 +76,7 @@ const Footer = () => {
                       className="font-normal sm:text-[18px] sm:leading-[27px] text-[#777777]  hover:text-black cursor-pointer mb-2 xs:mb-3 sm:mb-4"
                     >
                       {link.name}
+
                       <span
                         className={` ${
                           !link.info && "hidden"

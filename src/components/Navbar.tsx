@@ -10,10 +10,10 @@ const Navbar = () => {
       <div className="flex items-center gap-x-2">
         <Image
           src={"/assets/logo-green.svg"}
-          width="50"
-          height="50"
+          width="26"
+          height="30"
           alt="boldo logo"
-          className="h-[30px] sm:h-[35px]"
+          className="h-[30px] sm:h-[35px] "
         />
         <h1 className="text-3xl sm:text-4xl font-bold text-white">Boldo</h1>
       </div>

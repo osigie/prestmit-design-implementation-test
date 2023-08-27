@@ -41,7 +41,7 @@ const Products = () => {
             <div>
               <Image
                 src={product.ImageProduct}
-                className="h-auto"
+                className="h-auto max-w-full"
                 alt=""
                 width="300"
                 height="209"

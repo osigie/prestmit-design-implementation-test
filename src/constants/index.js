@@ -205,15 +205,15 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Products",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Services",
-        link: "#",
+        link: "https://github.com/osigie",
       },
     ],
   },
@@ -222,16 +222,16 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Careers",
         info: "Hiring!",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Services",
-        link: "#",
+        link: "https://github.com/osigie",
       },
     ],
   },
@@ -240,15 +240,15 @@ export const footerLinks = [
     links: [
       {
         name: "Blog",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Products",
-        link: "#",
+        link: "https://github.com/osigie",
       },
       {
         name: "Services",
-        link: "#",
+        link: "https://github.com/osigie",
       },
     ],
   },

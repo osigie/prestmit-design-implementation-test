@@ -1,4 +1,4 @@
-The goal of this project is to have a landing page for boldo.
+The goal of this project is to have a landing page for Boldo.
 
 # `Packages`
 

@@ -16,7 +16,7 @@ const SecondService = () => {
           >
             <Image
               src={service.Image}
-              className="hover:scale-105 duration-300 object-cover rounded-xl"
+              className="hover:scale-105 duration-300 object-cover rounded-xl max-w-full h-auto"
               alt={service.id}
               width="494"
               height="506"
