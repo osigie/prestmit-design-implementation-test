@@ -28,11 +28,11 @@ const ThirdService = () => {
             <div className="p-4  w-full  mx-auto md:mx-0 max-w-lg sm:max-w-xl md:max-w-md">
               <Accordion
                 question="We connect our customers with the best?"
-                answer="Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. "
+                answer="At our core, we are dedicated to delivering unparalleled excellence to our customers. We tirelessly seek out the finest solutions that cater to their unique needs. Our commitment to quality knows no bounds, ensuring that each connection we facilitate is nothing short of exceptional. With a deep focus on customer satisfaction, we strive to exceed expectations at every turn."
               />
               <Accordion
                 question="Android research & development rockstar?"
-                answer="Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis."
+                answer="Behold our Android Research & Development team - true rockstars in their field! They are the driving force behind our innovative strides in the realm of Android technology. With a harmonious blend of expertise and creativity, our team pioneers groundbreaking solutions that push the boundaries of what's possible. From crafting seamless user experiences to unraveling complex challenges, they're the beating heart of our technological advancement."
               />
             </div>
           </div>

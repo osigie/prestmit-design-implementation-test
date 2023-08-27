@@ -32,7 +32,6 @@ export const clients = [
   },
 ];
 
-
 export const sliderItems = [
   { src: "/assets/boldo.png", name: "Boldo" },
   { src: "/assets/presto.png", name: "Presto" },
@@ -49,8 +48,6 @@ export const sliderItems = [
   { src: "/assets/boldo.png", name: "Boldo" },
   { src: "/assets/presto.png", name: "Presto" },
 ];
-
-
 
 export const duplicatedClients = [];
 
@@ -149,24 +146,21 @@ export const thirdService = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Buyer buzz partner network disruptive non-disclosure agreement business.",
+    content: `"Buyer buzz partner network disruptive non-disclosure agreement business."`,
     name: "Albus Dumbledore",
     title: "Manager @ Howarts",
     Image: "/assets/people01.png",
   },
   {
     id: "feedback-2",
-    content:
-      "Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.",
+    content: `"Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor."`,
     name: "Severus Snape",
     title: "Manager @ Slytherin",
     Image: "/assets/people02.png",
   },
   {
     id: "feedback-3",
-    content:
-      "Release facebook responsive web design business model canvas seed money monetization.",
+    content: `"Release facebook responsive web design business model canvas seed money monetization."`,
     name: "Harry Potter",
     title: "Team Leader @ Gryffindor",
     Image: "/assets/people03.png",
