@@ -1,6 +1,4 @@
-import { useState } from "react";
 import ItemCarousel from "./ItemCarousel";
-import Image from "next/image";
 
 const Testimonials = () => {
   return (

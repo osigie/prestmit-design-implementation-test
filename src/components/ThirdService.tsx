@@ -1,6 +1,5 @@
-import { thirdService } from "../constants";
 import Image from "next/image";
-import { useState } from "react";
+import { thirdService } from "../constants";
 import Accordion from "./Accordion";
 
 const ThirdService = () => {

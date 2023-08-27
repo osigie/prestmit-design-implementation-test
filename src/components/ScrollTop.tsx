@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
-import Image from "next/image";
 
 const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
