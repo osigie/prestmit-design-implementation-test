@@ -25,7 +25,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="flex-none rounded-lg bg-[#65E4A3] text-brand-10 px-4 sm:px-7 py-2 text-sm font-semibold  shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="flex-none rounded-lg bg-brand-20 text-brand-10 px-4 sm:px-7 py-2 text-sm font-semibold  shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Subscribe
               </button>
@@ -79,7 +79,7 @@ const Footer = () => {
                       <span
                         className={` ${
                           !link.info && "hidden"
-                        }  ml-2 rounded-lg  bg-[#65E4A3] px-2 py-1 text-sm font-semibold text-black group-hover:bg-green-400`}
+                        }  ml-2 rounded-lg  bg-brand-20 px-2 py-1 text-sm font-semibold text-black group-hover:bg-green-400`}
                       >
                         {link.info}
                       </span>

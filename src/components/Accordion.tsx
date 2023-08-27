@@ -25,7 +25,7 @@ const Accordion = ({
           className={`transform ${
             isOpen ? "rotate-180" : "rotate-0"
           } transition-transform  bg-brand-10 text-white
-rounded-full p-0.5  hover:text-white h-[18px]  xs:h-[20px] w-[18px] xs:w-[20px] flex items-center justify-center`}
+rounded-full p-0.5  hover:text-white h-[18px]  xs:h-[20px] w-[18px] xs:w-5 flex items-center justify-center`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

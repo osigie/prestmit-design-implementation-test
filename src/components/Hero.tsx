@@ -10,7 +10,7 @@ const Hero = () => {
             src={"/assets/hero-graphics.svg"}
             width="50"
             height="50"
-            alt="grapichs"
+            alt="grapics"
             className="absolute inset-0 h-full w-full  hover:scale-105 duration-300"
           />
         </div>
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="mt-8 md:mt-12 flex items-center  gap-x-6">
             <a
               href="#"
-              className="rounded-lg  bg-[#65E4A3] text-slate-900 px-10 py-2.5  font-semibold  shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-lg  bg-brand-20 text-slate-900 px-10 py-2.5  font-semibold  shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get Started
             </a>

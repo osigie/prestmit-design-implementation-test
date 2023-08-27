@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaQuestion } from "react-icons/fa";
-import Image from "next/image";
 
 const Help = () => {
   const [toggle, setToggle] = useState(false);
@@ -29,12 +28,12 @@ const Help = () => {
       >
         <p className="font-semibold">Github repo :</p>
         <a
-          href="https://github.com/hudamnhd/landing-page-boldo"
+          href="https://github.com/osigie/prestmit-design-implementation-test"
           target="_blank"
           rel="noreferrer"
           className="opacity-70 hover:opacity-100  "
         >
-          https://github.com/hudamnhd/landing-page-boldo
+          https://github.com/osigie/prestmit-design-implementation-test
         </a>
 
         <p className="font-semibold">Reference design :</p>

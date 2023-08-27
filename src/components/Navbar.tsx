@@ -17,15 +17,15 @@ const Navbar = () => {
         />
         <h1 className="text-3xl sm:text-4xl font-bold text-white">Boldo</h1>
       </div>
-      {/* navigasi */}
+      {/* nav */}
       <div className="space-x-1 hidden sm:flex">
         {navLinks.map((navlink) => (
           <div key={navlink.id}>
             <a
               className={`${
                 navlink.title === "Login"
-                  ? "rounded-lg bg-white px-6 py-2 hover:bg-[#65E4A3] duration-300"
-                  : "rounded-lg px-6 py-2 text-white hover:bg-[#3D5973] duration-300"
+                  ? "rounded-lg bg-white px-6 py-2 hover:bg-brand-20 duration-300"
+                  : "rounded-lg px-6 py-2 text-white hover:bg-brand-30 duration-300"
               }`}
               href={`#${navlink.id}`}
             >
@@ -40,8 +40,8 @@ const Navbar = () => {
           src={toggle ? "/assets/close.svg" : "/assets/menu.svg"}
           onClick={() => setToggle(!toggle)}
           alt=""
-          width="50"
-          height="50"
+          width="18"
+          height="18"
         />
         <div
           className={` ${
@@ -53,8 +53,8 @@ const Navbar = () => {
               <a
                 className={`${
                   navlink.title === "Login"
-                    ? "rounded-lg bg-white px-6 py-1 hover:bg-[#65E4A3]"
-                    : "rounded-lg px-6 py-1 text-white hover:bg-[#3D5973]"
+                    ? "rounded-lg bg-white px-6 py-1 hover:bg-brand-20"
+                    : "rounded-lg px-6 py-1 text-white hover:bg-brand-30"
                 }`}
                 href={`#${navlink.id}`}
               >
