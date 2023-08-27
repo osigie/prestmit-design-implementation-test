@@ -80,7 +80,7 @@ const ItemCarousel = () => {
             className="flex flex-col justify-between space-y-10 rounded-xl bg-white p-7 sm:p-8 mx-2 sm:min-h-[320px] w-fit duration-300 "
           >
             <p className="text-xl sm:text-2xl">
-              {`${feed.content} `}
+              {`${feed.content} Lorem ipsum dolor sit amet`}
             </p>
             <div className="flex items-center space-x-3 xs:space-x-5">
               <Image
